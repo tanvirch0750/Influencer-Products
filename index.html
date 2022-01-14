@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
     <link
       rel="shortcut icon"
       href="images/logos/favicon.png"
@@ -13,6 +21,160 @@
     <title>Influencer Products</title>
   </head>
   <body>
-    <h1>Influencer Products</h1>
+    <!-- ===================================
+      ******** NAVIGATION SECTION *********
+   ===================================== -->
+    <nav class="navigation">
+      <div class="navigation__logo-box">
+        <p class="navigation__logo">Influencer Products</p>
+      </div>
+      <div class="navigation__menu">
+        <ul class="navigation__list">
+          <li class="navigation__lists">
+            <a href="#" class="navigation__link">Home</a>
+          </li>
+          <li class="navigation__lists">
+            <a href="#" class="navigation__link">Products</a>
+          </li>
+          <li class="navigation__lists">
+            <a href="#" class="navigation__link">Sign up</a>
+          </li>
+          <li class="navigation__lists">
+            <a href="#" class="navigation__link">Log in</a>
+          </li>
+          <li class="navigation__lists">
+            <a href="#" class="navigation__link">
+              <ion-icon name="search-outline"></ion-icon>
+            </a>
+          </li>
+          <li class="navigation__lists">
+            <a href="#" class="navigation__link">
+              <ion-icon name="cart-outline"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ===================================
+      ******** HEADER SECTION *********
+   ===================================== -->
+    <header class="header">
+      <div class="header__text-box">
+        <h1 class="header__text heading__primary">
+          Start your Journey as Influencer
+        </h1>
+        <p class="header__description">
+          If you are an influencer or talent, deciding to buy a camera and
+          related products is a major step. This is an investment not just for
+          you but also for your image, your brand, and whatever pursuit you are
+          taking and the purpose it may serve.
+        </p>
+        <a href="#" class="btn btn__primary btn--round">Our Collection</a>
+      </div>
+      <div class="header__img-box">
+        <img src="images/main-camera.png" alt="camera" />
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- ===================================
+      ********** FEATURED IN (logos) *********
+      ===================================== -->
+      <section class="featured-in">
+        <div class="featured-in__items">
+          <div class="featured-in__item">
+            <img
+              src="images/logos/Alibaba.svg"
+              alt="alibaba"
+              class="featured-in__logo"
+            />
+          </div>
+          <div class="featured-in__item">
+            <img
+              src="images/logos/Amazon.svg"
+              alt="amazon"
+              class="featured-in__logo"
+            />
+          </div>
+          <div class="featured-in__item">
+            <img
+              src="images/logos/Ebay.svg"
+              alt="ebay"
+              class="featured-in__logo"
+            />
+          </div>
+          <div class="featured-in__item">
+            <img
+              src="images/logos/Rakuten.svg"
+              alt="rakuten"
+              class="featured-in__logo"
+            />
+          </div>
+          <div class="featured-in__item">
+            <img
+              src="images/logos/Target.svg"
+              alt="target"
+              class="featured-in__logo"
+            />
+          </div>
+          <div class="featured-in__item">
+            <img
+              src="images/logos/Walmart.svg"
+              alt="walmart"
+              class="featured-in__logo"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================
+       ********** PRODUCTS SECTION ***********
+      ===================================== -->
+      <section class="products">
+        <h2 class="heading-secondary">Popular Collection</h2>
+        <div class="products__items">
+          <div class="product__item">
+            <img src="images/camera.png" alt="camera" class="product__img" />
+            <div class="product__content">
+              <h3 class="product__title heading__tertiary">Flex Tripod</h3>
+              <p class="product__price">$50.48</p>
+              <div class="product__review-icons">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-half"></ion-icon>
+              </div>
+              <div class="product__details">
+                <p class="product_details-text">Wordwide shifting</p>
+                <p class="product_details-text">Available</p>
+                <p class="product_details-text">Buyers protection possible!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================
+      ******* TESTIMONIAL SECTION ***********
+      ===================================== -->
+      <section class="testimonial">
+        <div class="testimonial__box">
+          <div class="testimonial__rating--icons">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===================================
+      ********** FOOTER SECTION ***********
+   ===================================== -->
+    <section class="footer"></section>
   </body>
 </html>
