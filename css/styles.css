@@ -215,6 +215,7 @@ a {
 .navigation__lists {
   list-style: none;
   display: flex;
+  align-items: center;
   gap: 3.5rem;
 }
 
@@ -238,6 +239,16 @@ a {
 
 .navigation__icon:hover {
   color: var(--primary-color);
+}
+
+/* for mobile menu purpose */
+#nav-toggler {
+  display: none;
+}
+.nav-toggler-icon {
+  display: none;
+  color: var(--primary-color);
+  font-size: 5rem;
 }
 
 /* ==============================
@@ -272,6 +283,11 @@ a {
 
 .header__img-box img {
   width: 80%;
+  transition: all 300ms;
+}
+
+.header__img-box:hover img {
+  transform: scale(1.1);
 }
 
 /* ==============================
@@ -284,6 +300,7 @@ a {
 .featured-in__items {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
   align-items: center;
   grid-gap: 1rem;
   padding: 4.8rem 0;
@@ -295,7 +312,7 @@ a {
 ****** PRODUCTS PART CSS *******
 =============================== */
 .products {
-  padding: 9.6rem 0;
+  padding: 6.4rem 0;
 }
 
 .products__items {
@@ -303,6 +320,7 @@ a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 3rem;
+  grid-row-gap: 3rem;
 }
 
 .products__item {
@@ -362,16 +380,17 @@ a {
 =============================== */
 .testimonial {
   padding: 9.6rem 0;
-  background-color: rgba(248, 249, 250, 0.842);
+  padding-top: 0;
 }
 
 .testimonial__box {
   display: grid;
   grid-template-columns: 60fr 40fr;
   grid-gap: 2rem;
-  background-color: var(--white-color);
+  /* background-color: var(--white-color); */
   padding: 2rem;
   border-radius: 0.5rem;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.08);
 }
 
 .testimonial__content {
