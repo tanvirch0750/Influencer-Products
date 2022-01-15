@@ -58,11 +58,11 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .products__btn {
+  /* .products__btn {
     margin-top: 4.8rem;
     display: flex;
     justify-content: center;
-  }
+  } */
 
   .testimonial {
     padding: 4.8rem 0;
