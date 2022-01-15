@@ -450,7 +450,7 @@ a {
 .customer__name {
   font-size: 1.6rem;
   font-weight: 500;
-  color: #b32357;
+  color: var(--primary-color);
   padding-bottom: 0.5rem;
 }
 
@@ -462,11 +462,13 @@ a {
 
 .testimonial__img-box {
   padding: 5rem;
+  padding-bottom: 0;
 }
 
 .testimonial__img {
   width: 100%;
-  height: 100%;
+  height: 35rem;
+  object-fit: cover;
   border-radius: 5px;
 }
 
