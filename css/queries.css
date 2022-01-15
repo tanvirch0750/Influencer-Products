@@ -20,7 +20,6 @@
     max-width: 100%;
     margin: 0 auto;
     padding: 0 3.2rem;
-    display: grid;
     grid-template-columns: 1fr;
     align-items: center;
   }
@@ -31,9 +30,7 @@
   }
 
   .header__img-box {
-    display: flex;
-    justify-content: center;
-    align-items: start;
+    align-items: center;
     order: 1;
     margin-bottom: 2.4rem;
   }
@@ -84,6 +81,10 @@
   .testimonial__content::before {
     width: 100%;
     height: 100%;
+  }
+
+  .testimonial__reviewer {
+    margin-bottom: 0;
   }
 
   .testimonial__box {
