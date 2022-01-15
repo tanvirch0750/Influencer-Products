@@ -108,6 +108,9 @@ a {
 .heading__primary {
   font-size: 5.2rem;
   line-height: 1.1;
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
 }
 
 .heading-secondary {
@@ -184,6 +187,39 @@ a {
   max-width: 120rem;
   margin: 0 auto;
   padding: 0 3.2rem;
+}
+
+/* Animation */
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  80% {
+    transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  80% {
+    transform: translateX(-1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
 
 /* ==============================
@@ -275,6 +311,9 @@ a {
 .header__img-box {
   display: flex;
   justify-content: center;
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
 }
 
 .header__img-box img {
