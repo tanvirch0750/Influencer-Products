@@ -129,7 +129,7 @@
   }
 }
 
-@media (max-width: 577px) {
+@media (max-width: 576px) {
   .heading__primary {
     font-size: 3rem;
   }
