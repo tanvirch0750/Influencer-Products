@@ -94,17 +94,11 @@
   .testimonial__img-box {
     display: none;
   }
-  /* .testimonial__img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-  } */
 }
 
 @media (max-width: 704px) {
   .navigation {
-    padding: 0 3.2rem;
-    padding-top: 1rem;
+    padding: 0 1rem;
   }
   .nav-toggler-icon {
     display: block;
@@ -148,10 +142,19 @@
 }
 
 @media (max-width: 504px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
   .featured-in__items {
     grid-row-gap: 2rem;
   }
   .featured-in__logo {
     width: 70%;
+  }
+
+  .testimonial .btn {
+    padding-bottom: 3rem;
   }
 }

@@ -95,10 +95,6 @@ h3 {
   color: var(--heading-color);
 }
 
-strong {
-  font-weight: 500;
-}
-
 a {
   text-decoration: none;
 }
