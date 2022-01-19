@@ -138,7 +138,7 @@ a {
   color: var(--primary-color);
   font-weight: 700;
   padding: 1rem 2rem;
-  background-color: rgba(224, 44, 110, 0.05);
+  background-color: var(--primary-color-shades-2);
   border-radius: 100px;
 }
 
@@ -282,13 +282,13 @@ a {
   content: "";
   width: 40rem;
   height: 40rem;
-  background-color: rgba(224, 44, 110, 0.05);
+  background-color: var(--primary-color-shades-2);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1.1);
   outline-offset: 5rem;
-  outline: 1.5px solid rgba(224, 44, 110, 0.05);
+  outline: 1.5px solid rgba(224, 44, 110, 0.116);
   border-radius: 100%;
 }
 
